@@ -4,7 +4,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot.png)
 
 ## Links
 
@@ -12,6 +12,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@serhii-bielik](https://www.frontendmentor.io/profile/serhii-bielik)
 
 
