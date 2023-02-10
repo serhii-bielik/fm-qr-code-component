@@ -40,7 +40,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
       }
 
       .qr-code-block {
@@ -49,7 +49,7 @@
         padding: 15px;
         background-color: hsl(0, 0%, 100%);
         border-radius: 20px;
-        box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 28px;
+        box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 28px;
       }
 
       .image-qr-code {
@@ -63,7 +63,7 @@
         text-align: center;
       }
 
-      .qr-code-caption h3 {
+      .qr-code-title {
         font-size: 22px;
         margin-bottom: 15px;
         color: hsl(218, 44%, 22%);
@@ -71,21 +71,23 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <div class="qr-code-block">
         <img
           src="./images/image-qr-code.png"
           class="image-qr-code"
-          alt="qr-code"
+          alt="QR code to frontendmentor.io"
         />
         <div class="qr-code-caption">
-          <h3>Improve your front-end skills by building projects</h3>
+          <div class="qr-code-title">
+            Improve your front-end skills by building projects
+          </div>
           <p>
             Scan the QR code to visit Frontend Mentor and take your coding
             skills to the next level
           </p>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
